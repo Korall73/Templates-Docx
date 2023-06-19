@@ -1,0 +1,63 @@
+.wrapper-tempId{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2vw;
+    width: 70vw;
+}
+
+.example{
+    width: 100%;
+}
+
+.example img{
+    width: 25vw;
+}
+
+.filling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    all: unset;
+}
+
+.input{
+    margin: 0.5vw;
+    padding: 1vw;
+    width: 30vw;
+    background-color: #fff;
+    border: 0.1vw solid gray;
+    cursor: auto;
+}
+
+.input:hover{
+    border: 0.1vw solid #18376e;
+}
+
+.input:focus{
+    border: 0.1vw solid #18376e;
+}
+
+.filling div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filling div input{
+    margin: 1vw;
+    padding: 1vw;
+    background-color: #18376e;
+    color: #fff;
+}
+
+.filling div input:hover{
+    background-color: #fff;
+    color: #18376e;
+    box-shadow: 0 0 1vw #18376e;
+    cursor: pointer;
+}

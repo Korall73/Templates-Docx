@@ -1,0 +1,126 @@
+html, body, nav, div, main, footer, ul, li, section{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3d3d3;
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: 'Helvetica';
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    max-width: 100%;
+    padding: 3vw 5vw;
+}
+
+.wrapper-nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #18376e;
+    color: #fff;
+    font-size: 1.5vw;
+    box-shadow: 0 0 1.5vw #18376e;
+}
+
+.wrapper-nav ul{
+    margin: 0.5vw;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.txt-nav{
+    padding: 0.5vw;
+    margin: 0.5vw;
+    border-bottom: 0.1vw solid #fff;
+}
+
+.txt-nav:hover{
+    background-color: #fff;
+    color: #18376e;
+}
+
+.wrapper-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #18376e;
+    width: 100%;
+    margin-top: auto;
+    font-size: 1.5vw;
+    box-shadow: 0 0 1.5vw #18376e;
+}
+
+.wrapper-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 2.5vw;
+    color: #fff;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    margin: 1vw;
+}
+
+.vk-footer{
+    margin: 0.5vw;
+    width: 3vw;
+    cursor: pointer;
+}
+
+.txt-footer{
+    padding: 1vw;
+    border-bottom: 0.1vw solid #fff;
+}
+
+.txt-footer:hover{
+    background-color: #fff;
+    color: #18376e;
+}
+
+.btn{
+    margin-top: 2vw;
+    background-color: #18376e;
+    padding: 1vw;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #18376e;
+    box-shadow: 0 0 1vw #18376e;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/helvetica_regular.otf);
+}

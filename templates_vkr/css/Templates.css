@@ -1,0 +1,44 @@
+.wrapper-templates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+.wrapper-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    font-size: 1vw;
+    margin: 5vw;
+}
+
+.txt-cart{
+    height: 2.5vw;
+}
+
+.cart img{
+    width: 10vw;
+}
+
+.btn-cart{
+    background-color: #18376e;
+    padding: 1vw;
+    margin-top: 0.5vw;
+}
+
+.btn-cart:hover{
+    background-color: #fff;
+    color: #18376e;
+    box-shadow: 0 0 1vw #18376e;
+}
